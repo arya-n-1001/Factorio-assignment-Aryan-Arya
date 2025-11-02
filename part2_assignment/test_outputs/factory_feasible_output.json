@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "per_recipe_crafts_per_min": {
+    "copper_plate": 90.0,
+    "copper_wire": 90.0,
+    "green_circuit": 60.0,
+    "iron_plate": 60.0
+  },
+  "per_machine_counts": {
+    "steel_furnace": 0.06666666666666667,
+    "assembler_1": 0.04166666666666667
+  },
+  "raw_consumption_per_min": {
+    "copper_ore": 90.0,
+    "iron_ore": 60.0
+  }
+}

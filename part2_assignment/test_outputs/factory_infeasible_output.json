@@ -1,0 +1,7 @@
+{
+  "status": "infeasible",
+  "max_feasible_target_per_min": 53.333333334,
+  "bottleneck_hint": [
+    "Review machine or raw material caps"
+  ]
+}

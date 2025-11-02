@@ -1,0 +1,47 @@
+{
+  "machines": {
+    "assembler_1": {"crafts_per_min": 30},
+    "steel_furnace": {"crafts_per_min": 120}
+  },
+  "recipes": {
+    "iron_plate": {
+      "machine": "steel_furnace",
+      "time_s": 3.2,
+      "in": {"iron_ore": 1},
+      "out": {"iron_plate": 1}
+    },
+    "copper_plate": {
+      "machine": "steel_furnace",
+      "time_s": 3.2,
+      "in": {"copper_ore": 1},
+      "out": {"copper_plate": 1}
+    },
+    "copper_wire": {
+      "machine": "assembler_1",
+      "time_s": 0.5,
+      "in": {"copper_plate": 1},
+      "out": {"copper_wire": 2}
+    },
+    "green_circuit": {
+      "machine": "assembler_1",
+      "time_s": 0.5,
+      "in": {"iron_plate": 1, "copper_wire": 3},
+      "out": {"green_circuit": 1}
+    }
+  },
+  "modules": {},
+  "limits": {
+    "raw_supply_per_min": {
+      "iron_ore": 1000,
+      "copper_ore": 1000
+    },
+    "max_machines": {
+      "steel_furnace": 8,
+      "assembler_1": 3
+    }
+  },
+  "target": {
+    "item": "green_circuit",
+    "rate_per_min": 60
+  }
+}

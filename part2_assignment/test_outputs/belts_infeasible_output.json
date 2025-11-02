@@ -1,0 +1,10 @@
+{
+  "status": "infeasible",
+  "cut_reachable": [
+    "a",
+    "s1"
+  ],
+  "deficit": {
+    "demand_balance": 500.0
+  }
+}
